@@ -128,6 +128,10 @@ onMounted(() => {
 });
 </script>
 
-<template></template>
+<template>
+  <div class="Map">
+    <div class="d3 card"></div>
+  </div>
+</template>
 
 <style></style>
