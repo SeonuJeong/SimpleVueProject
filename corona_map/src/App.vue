@@ -134,4 +134,36 @@ onMounted(() => {
   </div>
 </template>
 
-<style></style>
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.d3 {
+  background: white;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+  width: 1000px;
+}
+
+.d3:hover {
+  cursor: pointer;
+}
+
+.Map path {
+  fill: #f7a5a5;
+  stroke: white;
+}
+
+.Map svg {
+  background: #d0e2f3;
+  font-family: "Nanum Gothic";
+}
+
+.Map svg rect {
+  fill: rgba(255, 255, 255, 0.9);
+}
+
+.triangle {
+  fill: rgba(255, 255, 255, 0.9);
+}
+</style>
