@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import { defineProps } from "vue";
+defineProps(["msg"]);
+</script>
 
 <template>
   <div class="hello">
